@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+:root[data-theme="color-a"] {
+    --color-main: #a63c51;
+    --color-sub: #dd9397;
+    --color-text: #fff;
+}
+
+:root[data-theme="color-b"] {
+    --color-main: #795f84;
+    --color-sub: #d4bdd8;
+    --color-text: #fff;
+}
+
+:root[data-theme="color-c"] {
+    --color-main: #b24322;
+    --color-sub: #f19975;
+    --color-text: #fff;
+}
+
+:root[data-theme="color-d"] {
+    --color-main: #456779;
+    --color-sub: #9cb8c4;
+    --color-text: #fff;
+}
+
+:root[data-theme="color-e"] {
+    --color-main: #bc84aa;
+    --color-sub: #e3c7d7;
+    --color-text: #fff;
+}
+
+:root[data-theme="color-f"] {
+    --color-main: #495d36;
+    --color-sub: #7a805c;
+    --color-text: #fff;
+}
+
+:root[data-theme="color-g"] {
+    --color-main: #d62940;
+    --color-sub: #ef8b85;
+    --color-text: #fff;
+}
+
+:root[data-theme="color-h"] {
+    --color-main: #f7b300;
+    --color-sub: #f9e175;
+    --color-text: #fff;
+}
+
+:root[data-theme="color-i"] {
+    --color-main: #0c80a3;
+    --color-sub: #78c4e8;
+    --color-text: #fff;
+}
+
+:root[data-theme="color-j"] {
+    --color-main: #70549e;
+    --color-sub: #ad98c1;
+    --color-text: #fff;
+}
+
+:root[data-theme="color-k"] {
+    --color-main: #ef9098;
+    --color-sub: #f3c3c9;
+    --color-text: #fff;
+}
+
+body {
+    background-color: var(--color-main);
+    color: var(--color-text);
+}
+
+p {
+    background-color: var(--color-sub);
+}
+
+/*ボタンの装飾*/
+button {
+    width: 90px;
+    height: 90px;
+    border-radius: 55px;
+    border: 1px solid #fff;
+}
+
+#btn-a {
+    background-color: #a63c51;
+    color: #fff;
+}
+
+#btn-b {
+    background-color: #795f84;
+    color: #fff;
+}
+
+#btn-c {
+    background-color: #b24322;
+    color: #fff;
+}
+
+#btn-d {
+    background-color: #456779;
+    color: #fff;
+}
+
+#btn-e {
+    background-color: #bc84aa;
+    color: #fff;
+}
+
+#btn-f {
+    background-color: #495d36;
+    color: #fff;
+}
+
+#btn-g {
+    background-color: #d62940;
+    color: #fff;
+}
+
+#btn-h {
+    background-color: #f7b300;
+    color: #fff;
+}
+
+#btn-i {
+    background-color: #0c80a3;
+    color: #fff;
+}
+
+#btn-j {
+    background-color: #70549e;
+    color: #fff;
+}
+
+#btn-k {
+    background-color: #ef9098;
+    color: #fff;
+}
